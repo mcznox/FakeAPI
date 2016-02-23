@@ -126,7 +126,8 @@ public abstract class FakeAPI {
     public FakeEnum isFake() {
         return getName() != null ? FakeEnum.No : FakeEnum.Yes;
     }
-
+    
+    // Enum de estado
     public enum FakeEnum {
         No, Yes;
     }
