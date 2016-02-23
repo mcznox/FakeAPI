@@ -48,7 +48,12 @@ public abstract class FakeAPI {
     public Player getPlayer() { return player; }
 
     // Reetorna a variavel do nome falso
-    public String getName() { return name; }
+    public String getName() {
+        if (name.length() > 16) {
+            name = name.substring(0, 15);
+        }
+        return name;
+    }
 
     // Retorna a variavel de estado
     public FakeEnum getState() { return state; }
