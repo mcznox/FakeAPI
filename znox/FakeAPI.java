@@ -18,10 +18,6 @@ import java.util.Collection;
  */
 public abstract class FakeAPI {
 
-    public static void main(String args[]) {
-        System.out.println("");
-    }
-
     // Variavel de jogador
     private Player player;
 
