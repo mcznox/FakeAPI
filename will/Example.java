@@ -1,4 +1,4 @@
-package znox;
+package will;
 
 import org.bukkit.entity.Player;
 
