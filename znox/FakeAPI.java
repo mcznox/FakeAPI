@@ -1,4 +1,4 @@
-package znox;
+package will;
 
 import net.minecraft.server.v1_7_R4.EntityPlayer;
 import net.minecraft.server.v1_7_R4.PacketPlayOutEntityDestroy;
@@ -13,7 +13,7 @@ import java.util.Collection;
 /**
  * <h1>FakeAPI</h1>
  * <h2>Fake API criada na versao 1_7_R4 - Spigot</h2>
- * @author zNoX_
+ * @author Will
  * @version 1.0
  */
 public abstract class FakeAPI {
